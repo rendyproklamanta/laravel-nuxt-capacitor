@@ -20,7 +20,8 @@
    },
    "dependencies": {
       "@capacitor/android": "^3.6.0",
-      "@capacitor/core": "^3.6.0"
+      "@capacitor/core": "^3.6.0",
+      "@nuxtjs/dotenv": "^1.4.1"
    },
    "devDependencies": {
       "@capacitor/cli": "^3.6.0",

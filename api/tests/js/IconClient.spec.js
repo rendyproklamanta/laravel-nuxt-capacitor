@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import TransitionScaleIn from '@/client/components/transition/TransitionScaleIn.vue'
+import TransitionScaleIn from '@/components/transition/TransitionScaleIn.vue'
 
 test('TransitionScaleIn', () => {
   const wrapper = mount(TransitionScaleIn, {

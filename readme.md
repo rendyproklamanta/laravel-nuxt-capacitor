@@ -41,8 +41,16 @@ yarn api
 - http://localhost:4000 (frontend)
 - http://localhost:8000 (API)
 
+### Add capacitor depedencies
+```
+yarn add @capacitor/core
+yarn add @capacitor/cli --save-dev
+yarn add @capacitor/android
+```
+
 ### Run capacitor on android / ios
 ```
+npx cap init
 npx cap add android
 yarn buildcap (build capacitor)
 npx cap open android

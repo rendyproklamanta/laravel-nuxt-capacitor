@@ -16,7 +16,7 @@ module.exports = {
   },
   collectCoverage: false,
   collectCoverageFrom: [
-    '<rootDir>/client/components/**/*.vue',
-    '<rootDir>/client/pages/**/*.vue',
+    '<rootDir>/components/**/*.vue',
+    '<rootDir>/pages/**/*.vue',
   ],
 }

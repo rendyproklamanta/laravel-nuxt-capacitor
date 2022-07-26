@@ -38,7 +38,7 @@ import { Icon } from '@iconify/vue'
 import HeaderProfile from '~/components/header/HeaderProfile.vue'
 import { useNuxtApp } from '#app'
 import HeaderDarkMode from '~/components/header/HeaderDarkMode.vue'
-import Menu from '~~/client/lib/menu'
+import Menu from '~/lib/menu'
 
 const route = useRoute()
 const router = useRouter()

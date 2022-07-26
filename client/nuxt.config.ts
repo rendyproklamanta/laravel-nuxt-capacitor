@@ -1,7 +1,7 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from 'nuxt';
+require('./config');
 
 export default defineNuxtConfig({
-  srcDir: 'client/',
   meta: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -40,7 +40,10 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-windicss',
     '@tailvue/nuxt',
+   //  '@nuxtjs/dotenv',
   ],
+
+
 
   /**
    * @see https://v3.nuxtjs.org/guide/features/runtime-config#exposing-runtime-config
