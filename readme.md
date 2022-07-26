@@ -38,7 +38,7 @@ yarn seed
 yarn dev
 yarn api
 ```
-- http://localhost:3000 (frontend)
+- http://localhost:4000 (frontend)
 - http://localhost:8000 (API)
 
 ### Run capacitor on android / ios
