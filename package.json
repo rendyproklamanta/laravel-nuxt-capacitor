@@ -4,7 +4,7 @@
    "private": true,
    "scripts": {
       "prepare": "husky install",
-      "dev": "nuxi dev",
+      "dev": "nuxi dev --port 4000",
       "build": "nuxi build",
       "buildcap": "nuxt generate --no-ssr && npx cap sync",
       "start": "node .output/server/index.mjs",

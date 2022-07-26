@@ -19,8 +19,13 @@ This version is modified from : https://github.com/fumeapp/laranuxt
 ### Installation
 
 * clone from GitHub
-* run `yarn` and `composer install` to install all of your deps
-* copy `.env.example` to `.env` and configure it to your likings
+* install all of your depedencies :
+```
+yarn
+composer install
+```
+
+* Generate APP_KEY :
 
 ```
 php artisan key:generate
@@ -28,7 +33,7 @@ yarn seed
 ```
 
 
-### Local Environment
+### Run in Local Development only :
 ```
 yarn dev
 yarn api
