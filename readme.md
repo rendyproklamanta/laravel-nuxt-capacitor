@@ -16,33 +16,44 @@ This version is modified from : https://github.com/fumeapp/laranuxt
 
 <br>
 
-### Installation
+### Installation Laravel
 
-* clone from GitHub
 * install all of your depedencies :
 ```
-yarn
+cd api
 composer install
 ```
 
-* Generate APP_KEY :
+* Create a database with name "laranuxt" or whatever you want
+
+* Edit .env file and set DATABASE credential
+
+* Generate :
 
 ```
 php artisan key:generate
-yarn seed
+php artisan migrate:fresh --seed
 ```
 
+### Installation Nuxt
+
+- install all of your depedencies :
+```
+cd client
+yarn
+```
 
 ### Run in Local Development only :
 ```
-yarn dev
-yarn api
+cd api && php artisan serve
+cd client && yarn dev
 ```
 - http://localhost:4000 (frontend)
 - http://localhost:8000 (API)
 
 ### Add capacitor depedencies
 ```
+cd client
 yarn add @capacitor/core
 yarn add @capacitor/cli --save-dev
 yarn add @capacitor/android
