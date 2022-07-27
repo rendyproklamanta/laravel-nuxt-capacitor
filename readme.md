@@ -2,12 +2,12 @@ This version is modified from : https://github.com/fumeapp/laranuxt
 
 <br>
 
-* [NUXT v3](https://v3.nuxtjs.org) front end, a progressive Vue.js framework - For Nuxt v2 visit [this branch](https://github.com/fumeapp/laranuxt/tree/nuxt2)
+* [NUXT v3](https://v3.nuxtjs.org) front end, a progressive Vue.js framework
   * [tailvue](https://github.com/fumeapp/tailvue) a collection of components built for Nuxt.js, powered by WindiCSS|TailwindCSS
   * Authentication library to assist with user sessions and logging in/out
   * Example Authentication Middleware
 
-* [Laravel](https://laravel.com) - for our API - `v9.7.0`
+* [Laravel](https://laravel.com) - for API - `v9.7.0`
   * [Model Typer](https://github.com/fumeapp/modeltyper) - Generates Typescript interfaces from Laravel Models 
   * [MetAPI](https://github.com/acidjazz/metapi) - API helpers and utilities
   * [debugbar](https://github.com/barryvdh/laravel-debugbar) - awesome debugbar for our API
